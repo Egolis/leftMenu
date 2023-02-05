@@ -1,0 +1,128 @@
+/*section{*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    color: #fff;*/
+/*}*/
+/*.main{*/
+/*    background-color: chocolate;*/
+/*}*/
+/*.news{*/
+/*    background-color: darkblue;*/
+/*}*/
+/*.contacts{*/
+/*    background-color: darkcyan;*/
+/*}*/
+/*.portfolio{*/
+/*    background-color: cornflowerblue;*/
+/*}*/
+/*.wrapper{*/
+/*    position: relative;*/
+/*    overflow-x: hidden;*/
+/*}*/
+/*.menu{*/
+/*    position: fixed;*/
+/*    left: 0;top: 0;*/
+/*    z-index: 99;*/
+/*    width: 30%;*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    background-color: #ffffff;*/
+/*    transition: 0.5s;*/
+/*    transform: translateX(-100%);*/
+/*}*/
+/*.menu_active {*/
+/*    transform: translateX(0%);*/
+/*}*/
+/*.menu-list{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    height: 50%;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.menu-list a {*/
+/*    text-decoration: none;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 900;*/
+/*}*/
+/*.menu-btn{*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    background-color: #333;*/
+/*    position: absolute;*/
+/*    right: -35px;*/
+/*    top: 10px;*/
+
+/*}*/
+/*.content{*/
+/*    transition: 0.5s;*/
+/*    position: relative;*/
+/*    z-index: 0;*/
+/*}*/
+/*.content_active{*/
+/*    transform: translateX(30%);*/
+/*}*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.title h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #816681;
+}
+.title span{
+    color: #ae82db;
+}
+.list_menu a{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgba(86,36,20,0.73);
+    border-left: 2px solid #ae82db;
+    padding-left: 5px;
+    transition: all 0.3s ease;
+}
+.list_menu a:hover{
+    border-left: 2px solid #ae82db;
+    padding-left: 10px;
+    transition: all 0.2s ease;
+}
+.footer_menu p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(86,36,20,0.73);
+}
+.list_menu{
+    margin-bottom: 50px;
+}
+.list_menu li{
+    margin: 25px 0;
+}
+.menu{
+    padding: 25vh 50px;
+    position: fixed;
+    background: rgba(20, 20, 20, 0.5);
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    border-right: 10px solid #ae82db;
+    left: -347px;
+}
+.menu:hover{
+    left: 0;
+    transition: all 0.4s ease;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
